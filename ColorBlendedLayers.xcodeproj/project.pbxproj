@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDFFA3FE20CE56E200B3BCD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFFA3FD20CE56E200B3BCD3 /* AppDelegate.swift */; };
+		FDFFA40020CE56E200B3BCD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFFA3FF20CE56E200B3BCD3 /* ViewController.swift */; };
+		FDFFA40320CE56E200B3BCD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDFFA40120CE56E200B3BCD3 /* Main.storyboard */; };
+		FDFFA40520CE56E300B3BCD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDFFA40420CE56E300B3BCD3 /* Assets.xcassets */; };
+		FDFFA40820CE56E300B3BCD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDFFA40620CE56E300B3BCD3 /* LaunchScreen.storyboard */; };
+		FDFFA41320CE56E300B3BCD3 /* ColorBlendedLayersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFFA41220CE56E300B3BCD3 /* ColorBlendedLayersTests.swift */; };
+		FDFFA41E20CE56E300B3BCD3 /* ColorBlendedLayersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFFA41D20CE56E300B3BCD3 /* ColorBlendedLayersUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDFFA40F20CE56E300B3BCD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDFFA3F220CE56E200B3BCD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDFFA3F920CE56E200B3BCD3;
+			remoteInfo = ColorBlendedLayers;
+		};
+		FDFFA41A20CE56E300B3BCD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDFFA3F220CE56E200B3BCD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDFFA3F920CE56E200B3BCD3;
+			remoteInfo = ColorBlendedLayers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDFFA3FA20CE56E200B3BCD3 /* ColorBlendedLayers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorBlendedLayers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDFFA3FD20CE56E200B3BCD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDFFA3FF20CE56E200B3BCD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDFFA40220CE56E200B3BCD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDFFA40420CE56E300B3BCD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDFFA40720CE56E300B3BCD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDFFA40920CE56E300B3BCD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDFFA40E20CE56E300B3BCD3 /* ColorBlendedLayersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorBlendedLayersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDFFA41220CE56E300B3BCD3 /* ColorBlendedLayersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBlendedLayersTests.swift; sourceTree = "<group>"; };
+		FDFFA41420CE56E300B3BCD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDFFA41920CE56E300B3BCD3 /* ColorBlendedLayersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorBlendedLayersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDFFA41D20CE56E300B3BCD3 /* ColorBlendedLayersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBlendedLayersUITests.swift; sourceTree = "<group>"; };
+		FDFFA41F20CE56E300B3BCD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDFFA3F720CE56E200B3BCD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDFFA40B20CE56E300B3BCD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDFFA41620CE56E300B3BCD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDFFA3F120CE56E200B3BCD3 = {
+			isa = PBXGroup;
+			children = (
+				FDFFA3FC20CE56E200B3BCD3 /* ColorBlendedLayers */,
+				FDFFA41120CE56E300B3BCD3 /* ColorBlendedLayersTests */,
+				FDFFA41C20CE56E300B3BCD3 /* ColorBlendedLayersUITests */,
+				FDFFA3FB20CE56E200B3BCD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDFFA3FB20CE56E200B3BCD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDFFA3FA20CE56E200B3BCD3 /* ColorBlendedLayers.app */,
+				FDFFA40E20CE56E300B3BCD3 /* ColorBlendedLayersTests.xctest */,
+				FDFFA41920CE56E300B3BCD3 /* ColorBlendedLayersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDFFA3FC20CE56E200B3BCD3 /* ColorBlendedLayers */ = {
+			isa = PBXGroup;
+			children = (
+				FDFFA3FD20CE56E200B3BCD3 /* AppDelegate.swift */,
+				FDFFA3FF20CE56E200B3BCD3 /* ViewController.swift */,
+				FDFFA40120CE56E200B3BCD3 /* Main.storyboard */,
+				FDFFA40420CE56E300B3BCD3 /* Assets.xcassets */,
+				FDFFA40620CE56E300B3BCD3 /* LaunchScreen.storyboard */,
+				FDFFA40920CE56E300B3BCD3 /* Info.plist */,
+			);
+			path = ColorBlendedLayers;
+			sourceTree = "<group>";
+		};
+		FDFFA41120CE56E300B3BCD3 /* ColorBlendedLayersTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDFFA41220CE56E300B3BCD3 /* ColorBlendedLayersTests.swift */,
+				FDFFA41420CE56E300B3BCD3 /* Info.plist */,
+			);
+			path = ColorBlendedLayersTests;
+			sourceTree = "<group>";
+		};
+		FDFFA41C20CE56E300B3BCD3 /* ColorBlendedLayersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDFFA41D20CE56E300B3BCD3 /* ColorBlendedLayersUITests.swift */,
+				FDFFA41F20CE56E300B3BCD3 /* Info.plist */,
+			);
+			path = ColorBlendedLayersUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDFFA3F920CE56E200B3BCD3 /* ColorBlendedLayers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDFFA42220CE56E300B3BCD3 /* Build configuration list for PBXNativeTarget "ColorBlendedLayers" */;
+			buildPhases = (
+				FDFFA3F620CE56E200B3BCD3 /* Sources */,
+				FDFFA3F720CE56E200B3BCD3 /* Frameworks */,
+				FDFFA3F820CE56E200B3BCD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorBlendedLayers;
+			productName = ColorBlendedLayers;
+			productReference = FDFFA3FA20CE56E200B3BCD3 /* ColorBlendedLayers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDFFA40D20CE56E300B3BCD3 /* ColorBlendedLayersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDFFA42520CE56E300B3BCD3 /* Build configuration list for PBXNativeTarget "ColorBlendedLayersTests" */;
+			buildPhases = (
+				FDFFA40A20CE56E300B3BCD3 /* Sources */,
+				FDFFA40B20CE56E300B3BCD3 /* Frameworks */,
+				FDFFA40C20CE56E300B3BCD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDFFA41020CE56E300B3BCD3 /* PBXTargetDependency */,
+			);
+			name = ColorBlendedLayersTests;
+			productName = ColorBlendedLayersTests;
+			productReference = FDFFA40E20CE56E300B3BCD3 /* ColorBlendedLayersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDFFA41820CE56E300B3BCD3 /* ColorBlendedLayersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDFFA42820CE56E300B3BCD3 /* Build configuration list for PBXNativeTarget "ColorBlendedLayersUITests" */;
+			buildPhases = (
+				FDFFA41520CE56E300B3BCD3 /* Sources */,
+				FDFFA41620CE56E300B3BCD3 /* Frameworks */,
+				FDFFA41720CE56E300B3BCD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDFFA41B20CE56E300B3BCD3 /* PBXTargetDependency */,
+			);
+			name = ColorBlendedLayersUITests;
+			productName = ColorBlendedLayersUITests;
+			productReference = FDFFA41920CE56E300B3BCD3 /* ColorBlendedLayersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDFFA3F220CE56E200B3BCD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = slwy;
+				TargetAttributes = {
+					FDFFA3F920CE56E200B3BCD3 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					FDFFA40D20CE56E300B3BCD3 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = FDFFA3F920CE56E200B3BCD3;
+					};
+					FDFFA41820CE56E300B3BCD3 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = FDFFA3F920CE56E200B3BCD3;
+					};
+				};
+			};
+			buildConfigurationList = FDFFA3F520CE56E200B3BCD3 /* Build configuration list for PBXProject "ColorBlendedLayers" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDFFA3F120CE56E200B3BCD3;
+			productRefGroup = FDFFA3FB20CE56E200B3BCD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDFFA3F920CE56E200B3BCD3 /* ColorBlendedLayers */,
+				FDFFA40D20CE56E300B3BCD3 /* ColorBlendedLayersTests */,
+				FDFFA41820CE56E300B3BCD3 /* ColorBlendedLayersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDFFA3F820CE56E200B3BCD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDFFA40820CE56E300B3BCD3 /* LaunchScreen.storyboard in Resources */,
+				FDFFA40520CE56E300B3BCD3 /* Assets.xcassets in Resources */,
+				FDFFA40320CE56E200B3BCD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDFFA40C20CE56E300B3BCD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDFFA41720CE56E300B3BCD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDFFA3F620CE56E200B3BCD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDFFA40020CE56E200B3BCD3 /* ViewController.swift in Sources */,
+				FDFFA3FE20CE56E200B3BCD3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDFFA40A20CE56E300B3BCD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDFFA41320CE56E300B3BCD3 /* ColorBlendedLayersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDFFA41520CE56E300B3BCD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDFFA41E20CE56E300B3BCD3 /* ColorBlendedLayersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDFFA41020CE56E300B3BCD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDFFA3F920CE56E200B3BCD3 /* ColorBlendedLayers */;
+			targetProxy = FDFFA40F20CE56E300B3BCD3 /* PBXContainerItemProxy */;
+		};
+		FDFFA41B20CE56E300B3BCD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDFFA3F920CE56E200B3BCD3 /* ColorBlendedLayers */;
+			targetProxy = FDFFA41A20CE56E300B3BCD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDFFA40120CE56E200B3BCD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDFFA40220CE56E200B3BCD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDFFA40620CE56E300B3BCD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDFFA40720CE56E300B3BCD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDFFA42020CE56E300B3BCD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDFFA42120CE56E300B3BCD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDFFA42320CE56E300B3BCD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZK6T3AW3W;
+				INFOPLIST_FILE = ColorBlendedLayers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanglv51.www.ColorBlendedLayers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDFFA42420CE56E300B3BCD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZK6T3AW3W;
+				INFOPLIST_FILE = ColorBlendedLayers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanglv51.www.ColorBlendedLayers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDFFA42620CE56E300B3BCD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZK6T3AW3W;
+				INFOPLIST_FILE = ColorBlendedLayersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanglv51.www.ColorBlendedLayersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorBlendedLayers.app/ColorBlendedLayers";
+			};
+			name = Debug;
+		};
+		FDFFA42720CE56E300B3BCD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZK6T3AW3W;
+				INFOPLIST_FILE = ColorBlendedLayersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanglv51.www.ColorBlendedLayersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorBlendedLayers.app/ColorBlendedLayers";
+			};
+			name = Release;
+		};
+		FDFFA42920CE56E300B3BCD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZK6T3AW3W;
+				INFOPLIST_FILE = ColorBlendedLayersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanglv51.www.ColorBlendedLayersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ColorBlendedLayers;
+			};
+			name = Debug;
+		};
+		FDFFA42A20CE56E300B3BCD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZK6T3AW3W;
+				INFOPLIST_FILE = ColorBlendedLayersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanglv51.www.ColorBlendedLayersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ColorBlendedLayers;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDFFA3F520CE56E200B3BCD3 /* Build configuration list for PBXProject "ColorBlendedLayers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDFFA42020CE56E300B3BCD3 /* Debug */,
+				FDFFA42120CE56E300B3BCD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDFFA42220CE56E300B3BCD3 /* Build configuration list for PBXNativeTarget "ColorBlendedLayers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDFFA42320CE56E300B3BCD3 /* Debug */,
+				FDFFA42420CE56E300B3BCD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDFFA42520CE56E300B3BCD3 /* Build configuration list for PBXNativeTarget "ColorBlendedLayersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDFFA42620CE56E300B3BCD3 /* Debug */,
+				FDFFA42720CE56E300B3BCD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDFFA42820CE56E300B3BCD3 /* Build configuration list for PBXNativeTarget "ColorBlendedLayersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDFFA42920CE56E300B3BCD3 /* Debug */,
+				FDFFA42A20CE56E300B3BCD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDFFA3F220CE56E200B3BCD3 /* Project object */;
+}
