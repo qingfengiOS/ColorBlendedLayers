@@ -11,6 +11,8 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var blueView: UIView!
+    
+    @IBOutlet weak var testImageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         /*
@@ -27,7 +29,29 @@ class ViewController: UIViewController {
          选中模拟器——>选择Debug——>勾选Color Blended Layers
          （alpha = 0.5时blueView为红色，alpha = 1时blueView为绿色）
          */
+        
+        
+        let image: UIImage = (UIImage.init(named: "train"))!
+        testImageView.image = image.scaleImage(size: testImageView.frame.size)
+        /*
+         使用Core Graphics缩放图片,处理Color Misaligned Images
+         */
     }
-
 }
 
+extension UIImage {
+    func scaleImage(size: CGSize) -> UIImage? {
+        
+        if self.size.equalTo(size) {
+            return self;
+        }
+        
+        UIGraphicsBeginImageContextWithOptions(size, true, UIScreen.main.scale)
+        self.draw(in: CGRect(x: 0, y: 0, width: size.width, height: size.height))
+        
+        let newImage = UIGraphicsGetImageFromCurrentImageContext()!
+        
+        UIGraphicsEndImageContext()
+        return newImage
+    }
+}

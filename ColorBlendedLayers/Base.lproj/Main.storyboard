@@ -38,12 +38,24 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.52650957700000001" blue="0.4137993338" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="train" translatesAutoresizingMaskIntoConstraints="NO" id="fHA-6G-s3e">
+                                <rect key="frame" x="67" y="492" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="N4n-uG-4Ss"/>
+                                    <constraint firstAttribute="height" constant="128" id="dzK-ZD-TzU"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fHA-6G-s3e" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gIi-QN-Uby"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fHA-6G-s3e" secondAttribute="bottom" constant="47" id="jT5-Gz-G9f"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="blueView" destination="WfD-ZR-rPq" id="hM4-0d-SXi"/>
+                        <outlet property="blueView" destination="WfD-ZR-rPq" id="k1V-Ac-0r3"/>
+                        <outlet property="testImageView" destination="fHA-6G-s3e" id="zUj-M8-mqF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -51,4 +63,7 @@
             <point key="canvasLocation" x="140" y="133.5832083958021"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="train" width="375" height="184"/>
+    </resources>
 </document>
